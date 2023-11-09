@@ -11,7 +11,7 @@ export default function App() {
       <Routes>
         <Route path="/login" element={<Login />} />
         <Route path="/product" element={<Product />} />
-        <Route path="/productDetails" element={<ProductDetails />} />
+        <Route path="/productDetails/:productId" element={<ProductDetails />} />
         <Route path="/cart" element={<CartPage />} />
       </Routes>
     </BrowserRouter>
